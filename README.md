@@ -34,7 +34,9 @@ Imagino..doRoundImage(yourImageView);
 ````
 
 ## Usage Guidelines ##
-If you don't want to use some default image then put ````-1```` as fourth parameter and if you don't want any Animation then pass ````new Animation(){}```` as your last parameter.
+If you don't want to use some default image then put ````-1```` as fourth parameter.
+If you don't want any Animation then pass ````new Animation(){}```` as your last parameter.
+If you want fadeIn Animation then pass ````null```` as your last parameter.
 
 ## Special Thanx ##
 Android hive classes for Image Loading over http.
