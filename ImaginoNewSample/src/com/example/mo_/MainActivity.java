@@ -33,7 +33,7 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 			//Toast.makeText(MainActivity.this, "clicked1", Toast.LENGTH_SHORT).show();	
-				Imagino.setImageFromWeb(MainActivity.this.getApplicationContext(), img, "https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-ash3/1175479_651785988188868_857564110_n.jpg" , R.drawable.ic_launcher , true , new Animation(){});
+				Imagino.setImageFromWeb(MainActivity.this.getApplicationContext(), img, "https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-ash3/1175479_651785988188868_857564110_n.jpg" , R.drawable.ic_launcher , true , null);
 			}
 		});
 		b2.setOnClickListener(new OnClickListener() {
