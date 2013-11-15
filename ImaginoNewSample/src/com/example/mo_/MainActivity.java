@@ -33,7 +33,7 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 			//Toast.makeText(MainActivity.this, "clicked1", Toast.LENGTH_SHORT).show();	
-				Imagino.setImageFromWeb(MainActivity.this.getApplicationContext(), img, "https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-ash3/1175479_651785988188868_857564110_n.jpg" , R.drawable.ic_launcher , true , null);
+				Imagino.setImageFromWeb(MainActivity.this.getApplicationContext(), img, "https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-ash3/1175479_651785988188868_857564110_n.jpg" , R.drawable.ic_launcher ,  -1 , true , null);
 			}
 		});
 		b2.setOnClickListener(new OnClickListener() {
@@ -41,7 +41,7 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 //				Toast.makeText(MainActivity.this, "clicked2", Toast.LENGTH_SHORT).show();
-				Imagino.setImageFromWeb(MainActivity.this.getApplicationContext(), img, "https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-ash3/1175479_651785988188868_857564110_n.jpg" , -1 , false ,a);
+				Imagino.setImageFromWeb(MainActivity.this.getApplicationContext(), img, "https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-ash3/1175479_651785988188868_857564110_.jpg" , -1 , R.drawable.ic_launcher, false ,a);
 			}
 		});
 		b3.setOnClickListener(new OnClickListener() {
@@ -49,7 +49,7 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 //				Toast.makeText(MainActivity.this, "clicked3", Toast.LENGTH_SHORT).show();
-				Imagino.setImageFromWeb(MainActivity.this.getApplicationContext(), img, "https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-ash3/1175479_651785988188868_857564110_n.jpg" , R.drawable.ic_launcher , true ,a);
+				Imagino.setImageFromWeb(MainActivity.this.getApplicationContext(), img, "https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-ash3/1175479_651785988188868_857564110_n.jpg" , R.drawable.ic_launcher , -1 , true ,a);
 			}
 		});
 		
