@@ -27,7 +27,7 @@ Now you are done to use Imagino.
 
 ## Code Snippets ##
 ````
-Imagino.setImageFromWeb(yourActivity.getApplicationContext(), yourImageView, "URL" , R.drawable.default_image , boolean_required_round , custom_Animation_object);
+Imagino.setImageFromWeb(yourActivity.getApplicationContext(), yourImageView, "URL" , R.drawable.default_image , R.drawable.error_image , boolean_required_round , custom_Animation_object);
 ````
 ````
 Imagino..doRoundImage(yourImageView);
@@ -35,7 +35,11 @@ Imagino..doRoundImage(yourImageView);
 
 ## Usage Guidelines ##
 If you don't want to use some default image then put ````-1```` as fourth parameter.
+
+If you don't want to use some error image then put ````-1```` as fifth parameter.
+
 If you don't want any Animation then pass ````new Animation(){}```` as your last parameter.
+
 If you want fadeIn Animation then pass ````null```` as your last parameter.
 
 ## Special Thanx ##
