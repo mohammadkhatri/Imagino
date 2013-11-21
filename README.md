@@ -38,6 +38,8 @@ If you don't want to use some default image then put ````-1```` as fourth parame
 
 If you don't want to use some error image then put ````-1```` as fifth parameter.
 
+If you want Animation at loading image in imageview then pass Animation() object as your last parameter.
+
 If you don't want any Animation then pass ````new Animation(){}```` as your last parameter.
 
 If you want fadeIn Animation then pass ````null```` as your last parameter.
